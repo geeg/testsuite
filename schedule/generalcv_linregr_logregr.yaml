@@ -1,0 +1,8 @@
+- cases : case_generalcv_linregr
+  platform : GPDB_4.2.3.0
+
+- cases : case_generalcv_logregr
+  platform : GPDB_4.2.3.0
+
+- cases : case_generic_cv_input
+  platform : GPDB_4.2.3.0
