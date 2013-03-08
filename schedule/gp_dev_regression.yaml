@@ -1,0 +1,4 @@
+- lists : list_dev_regression
+  skip : skip_knownissues
+  platform : GPDB_4.2.3.0
+  unique : true
