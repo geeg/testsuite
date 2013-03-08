@@ -31,7 +31,7 @@
                     <name>modelling_params</name>
                     <!-- <value>NULL</value> -->
                     <!-- <value>'{NULL}'</value> -->
-                    <value>'{$_val$%data%$_val$, x, y, $_val$%model%$_val$}'</value>
+                    <value>'{%data%, x, y, %model%}'</value>
                 </parameter>
                 <parameter>
                     <name>modelling_params_type</name>
@@ -53,7 +53,7 @@
                 </parameter>
                 <parameter>
                     <name>predict_params</name>
-                    <value>'{$_val$%model%$_val$, $_val$%data%$_val$, x, $_val$%id%$_val$ , $_val$%prediction%$_val$}'</value>
+                    <value>'{%model%, %data%, x, %id% , %prediction%}'</value>
                 </parameter>
                 <parameter>
                     <name>predict_params_type</name>
@@ -66,7 +66,7 @@
                 </parameter>
                 <parameter>
                     <name>metric_params</name>
-                     <value>'{$_val$%prediction%$_val$, $_val$%data%$_val$, $_val$%id%$_val$, y, $_val$%error%$_val$}'</value>
+                     <value>'{%prediction%, %data%, %id%, y, %error%}'</value>
                 </parameter>
                 <parameter>
                     <name>metric_params_type</name>
@@ -123,7 +123,7 @@
                 </parameter>
                 <parameter>
                     <name>modelling_params</name>
-                    <value>'{$_val$%data%$_val$, x, y, $_val$%model%$_val$, 100, igd, 1e-7}'</value>
+                    <value>'{%data%, x, y, %model%, 100, igd, 1e-7}'</value>
                 </parameter>
                 <parameter>
                     <name>modelling_params_type</name>
@@ -139,7 +139,7 @@
                 </parameter>
                 <parameter>
                     <name>predict_params</name>
-                    <value>'{$_val$%model%$_val$, $_val$%data%$_val$, x, $_val$%id%$_val$, $_val$%prediction%$_val$}'</value>
+                    <value>'{%model%, %data%, x, %id%, %prediction%}'</value>
                 </parameter>
                 <parameter>
                     <name>predict_params_type</name>
@@ -152,7 +152,7 @@
                 </parameter>
                 <parameter>
                     <name>metric_params</name>
-                     <value>'{$_val$%prediction%$_val$, $_val$%data%$_val$, $_val$%id%$_val$, y, $_val$%error%$_val$}'</value>
+                     <value>'{%prediction%, %data%, %id%, y, %error%}'</value>
                 </parameter>
                 <parameter>
                     <name>metric_params_type</name>
@@ -209,7 +209,7 @@
                     </parameter>
                     <parameter>
                         <name>modelling_params</name>
-                        <value>'{$_val$%data%$_val$, x, y, $_val$%model%$_val$, 100, igd, 1e-7}'</value>
+                        <value>'{%data%, x, y, %model%, 100, igd, 1e-7}'</value>
                     </parameter>
                     <parameter>
                         <name>modelling_params_type</name>
@@ -229,8 +229,8 @@
                     </parameter>
                     <parameter>
                         <name>predict_params</name>
-                        <value>{$_val$%model%$_val$, $_val$%data%$_val$, x, 
-                            $_val$%id%$_val$, $_val$%prediction%$_val$}</value>
+                        <value>{%model%, %data%, x, 
+                            %id%, %prediction%}</value>
                     </parameter>
                     <parameter>
                         <name>predict_params_type</name>
@@ -239,8 +239,8 @@
                     </parameter>
                     <parameter>
                         <name>metric_params</name>
-                        <value>{$_val$%prediction%$_val$, $_val$%data%$_val$, 
-                            $_val$%id%$_val$, y, $_val$%error%$_val$}</value>
+                        <value>{%prediction%, %data%, 
+                            %id%, y, %error%}</value>
                     </parameter>
                     <parameter>
                         <name>metric_params_type</name>
@@ -321,7 +321,7 @@
                     </parameter>
                     <parameter>
                         <name>modelling_params</name>
-                        <value>'{$_val$%data%$_val$, x, y, $_val$%model%$_val$, 100, igd, 1e-7}'</value>
+                        <value>'{%data%, x, y, %model%, 100, igd, 1e-7}'</value>
                     </parameter>
                     <parameter>
                         <name>modelling_params_type</name>
@@ -341,7 +341,7 @@
                     </parameter>
                     <parameter>
                         <name>predict_params</name>
-                        <value>'{$_val$%model%$_val$, $_val$%data%$_val$, x, $_val$%id%$_val$, $_val$%prediction%$_val$}'</value>
+                        <value>'{%model%, %data%, x, %id%, %prediction%}'</value>
                     </parameter>
                     <parameter>
                         <name>predict_params_type</name>
@@ -358,7 +358,7 @@
                     </parameter>
                     <parameter>
                         <name>metric_params</name>
-                        <value>'{$_val$%prediction%$_val$, $_val$%data%$_val$, $_val$%id%$_val$, y, $_val$%error%$_val$}'</value>
+                        <value>'{%prediction%, %data%, %id%, y, %error%}'</value>
                     </parameter>
                     <parameter>
                         <name>metric_params_type</name>
